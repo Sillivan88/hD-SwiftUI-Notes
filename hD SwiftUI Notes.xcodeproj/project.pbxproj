@@ -13,6 +13,11 @@
 		E994A13123A23C97004BC7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E994A13023A23C97004BC7F7 /* Assets.xcassets */; };
 		E994A13423A23C97004BC7F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E994A13323A23C97004BC7F7 /* Preview Assets.xcassets */; };
 		E994A13723A23C97004BC7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E994A13523A23C97004BC7F7 /* LaunchScreen.storyboard */; };
+		E994A14023A23CEB004BC7F7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994A13F23A23CEB004BC7F7 /* Note.swift */; };
+		E994A14223A23CF4004BC7F7 /* NotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994A14123A23CF4004BC7F7 /* NotesManager.swift */; };
+		E994A14423A23D18004BC7F7 /* CreateNoteNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994A14323A23D18004BC7F7 /* CreateNoteNavigationView.swift */; };
+		E994A14623A23D2C004BC7F7 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994A14523A23D2C004BC7F7 /* NoteView.swift */; };
+		E994A14823A23D3D004BC7F7 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994A14723A23D3D004BC7F7 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		E994A13323A23C97004BC7F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E994A13623A23C97004BC7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E994A13823A23C97004BC7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E994A13F23A23CEB004BC7F7 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		E994A14123A23CF4004BC7F7 /* NotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesManager.swift; sourceTree = "<group>"; };
+		E994A14323A23D18004BC7F7 /* CreateNoteNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteNavigationView.swift; sourceTree = "<group>"; };
+		E994A14523A23D2C004BC7F7 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		E994A14723A23D3D004BC7F7 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,10 @@
 				E994A12A23A23C94004BC7F7 /* AppDelegate.swift */,
 				E994A12C23A23C94004BC7F7 /* SceneDelegate.swift */,
 				E994A12E23A23C94004BC7F7 /* ContentView.swift */,
+				E994A14323A23D18004BC7F7 /* CreateNoteNavigationView.swift */,
+				E994A14523A23D2C004BC7F7 /* NoteView.swift */,
+				E994A14723A23D3D004BC7F7 /* TextView.swift */,
+				E994A13E23A23CDF004BC7F7 /* Model */,
 				E994A13023A23C97004BC7F7 /* Assets.xcassets */,
 				E994A13523A23C97004BC7F7 /* LaunchScreen.storyboard */,
 				E994A13823A23C97004BC7F7 /* Info.plist */,
@@ -73,6 +87,15 @@
 				E994A13323A23C97004BC7F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E994A13E23A23CDF004BC7F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E994A13F23A23CEB004BC7F7 /* Note.swift */,
+				E994A14123A23CF4004BC7F7 /* NotesManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E994A12B23A23C94004BC7F7 /* AppDelegate.swift in Sources */,
+				E994A14823A23D3D004BC7F7 /* TextView.swift in Sources */,
+				E994A14223A23CF4004BC7F7 /* NotesManager.swift in Sources */,
+				E994A14423A23D18004BC7F7 /* CreateNoteNavigationView.swift in Sources */,
 				E994A12D23A23C94004BC7F7 /* SceneDelegate.swift in Sources */,
 				E994A12F23A23C94004BC7F7 /* ContentView.swift in Sources */,
+				E994A14623A23D2C004BC7F7 /* NoteView.swift in Sources */,
+				E994A14023A23CEB004BC7F7 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

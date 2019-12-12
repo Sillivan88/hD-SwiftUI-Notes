@@ -1,14 +1,14 @@
 //
-//  AppDelegate.swift
+//  NotesManager.swift
 //  hD SwiftUI Notes
 //
 //  Created by Thomas Sillmann on 12.12.19.
 //  Copyright © 2019 Thomas Sillmann. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-    
+class NotesManager {
+    static let shared = NotesManager()
+    var notes = [Note]()
 }
